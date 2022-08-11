@@ -1,4 +1,4 @@
-package com.codeup.udemyjspsservletsjdbcs;
+package com.codeup.udemyjspsservletsjdbcs.controllers;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

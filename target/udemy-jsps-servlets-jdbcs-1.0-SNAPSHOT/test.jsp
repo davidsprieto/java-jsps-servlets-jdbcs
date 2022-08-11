@@ -23,7 +23,6 @@ Is 75 less than 69? <%= 75 < 69 %>
         outPrint.println("<br/> I really love to code: " + i);
     }
 %>
-<br/>
 
 <%-- DECLARATIONS --%>
 <%!

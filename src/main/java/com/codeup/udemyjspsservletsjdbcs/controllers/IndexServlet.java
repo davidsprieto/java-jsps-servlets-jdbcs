@@ -1,4 +1,4 @@
-package com.codeup.udemyjspsservletsjdbcs;
+package com.codeup.udemyjspsservletsjdbcs.controllers;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "helloServlet", value = "/")
-public class HelloServlet extends HttpServlet {
+@WebServlet(name = "indexServlet", value = "/")
+public class IndexServlet extends HttpServlet {
     private String message;
 
     public void init() {
