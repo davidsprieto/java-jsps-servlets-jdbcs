@@ -24,5 +24,13 @@ Is 75 less than 69? <%= 75 < 69 %>
     }
 %>
 
+<%-- DECLARATIONS --%>
+<%!
+    String makeItLower(String data) {
+        return data.toLowerCase();
+    }
+%>
+Lower case "Hello World": <%= makeItLower("Hello World") %>
+
 </body>
 </html>
