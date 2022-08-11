@@ -7,11 +7,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "utilsTestServlet", value = "/utils-test")
-public class UtilsTest extends HttpServlet {
+@WebServlet(name = "builtinTestServlet", value = "/builtin-test")
+public class BuiltinTestServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        request.getRequestDispatcher("/utils-test.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/builtin-test.jsp").forward(request, response);
     }
 
 }

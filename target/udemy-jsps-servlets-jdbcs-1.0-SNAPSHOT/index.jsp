@@ -4,7 +4,7 @@
 <head>
     <title>JSP - Hello World</title>
 </head>
-<body>
+<body style="text-align: center">
 <h1><%= "Hello World!" %></h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "indexServlet", value = "/")
+@WebServlet(name = "indexServlet", value = "/hello-servlet")
 public class IndexServlet extends HttpServlet {
     private String message;
 
@@ -20,7 +20,7 @@ public class IndexServlet extends HttpServlet {
 
         // Hello
         PrintWriter out = response.getWriter();
-        out.println("<html><body>");
+        out.println("<html><body style=\"text-align: center;\">");
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
     }
