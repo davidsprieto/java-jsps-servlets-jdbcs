@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Student Form</title>
 </head>
-<body>
+<body style="text-align: center">
 
 <form action="/student-response" method="post">
 
@@ -27,6 +27,37 @@
         <option>United States of America</option>
     </select>
     <br/>
+
+    <h3>Top Programming Language:</h3>
+    <label for="java">Java</label>
+    <input id="java" type="radio" name="topLanguage" value="Java"/>
+
+    <label for="C#">C#</label>
+    <input id="C#" type="radio" name="topLanguage" value="C#"/>
+
+    <label for="PHP">PHP</label>
+    <input id="PHP" type="radio" name="topLanguage" value="PHP"/>
+
+    <label for="ruby">Ruby</label>
+    <input id="ruby" type="radio" name="topLanguage" value="Ruby"/>
+    <br/>
+    <br/>
+
+    <h3>Favorite Programming Languages:</h3>
+    <label for="javascript">JavaScript</label>
+    <input id="javascript" type="checkbox" name="favoriteLanguages" value="JavaScript"/>
+
+    <label for="SQL">SQL</label>
+    <input id="SQL" type="checkbox" name="favoriteLanguages" value="SQL"/>
+
+    <label for="python">Python</label>
+    <input id="python" type="checkbox" name="favoriteLanguages" value="Python"/>
+
+    <label for="golang">GoLang</label>
+    <input id="golang" type="checkbox" name="favoriteLanguages" value="GoLang"/>
+    <br/>
+    <br/>
+
 
     <input type="submit" value="submit"/>
 </form>
