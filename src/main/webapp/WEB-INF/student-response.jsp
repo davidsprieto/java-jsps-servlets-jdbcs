@@ -8,9 +8,6 @@
 <body>
 <%
     String[] languages = request.getParameterValues("favoriteLanguages");
-    for (String language : languages) {
-        System.out.println(language);
-    }
 %>
 
 The student is confirmed - Name:
@@ -26,7 +23,7 @@ The student is confirmed - Name:
 The student is confirmed - Name: ${param.firstName} ${param.lastName},
 Country: ${param.country},
 Top Programming Language: ${param.topLanguage},
-Favorite Programming Languages: ${paramValues}
+Favorite Programming Languages: ${Arrays.toString(paramValues.favoriteLanguages)}
 <br/>
 
 </body>

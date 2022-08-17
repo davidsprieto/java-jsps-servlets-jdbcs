@@ -26,7 +26,7 @@ The student is confirmed - Name:
 The student is confirmed - Name: ${param.firstName} ${param.lastName},
 Country: ${param.country},
 Top Programming Language: ${param.topLanguage},
-Favorite Programming Languages: ${param.languages}
+Favorite Programming Languages: ${Arrays.toString(paramValues.favoriteLanguages)}
 <br/>
 
 </body>
