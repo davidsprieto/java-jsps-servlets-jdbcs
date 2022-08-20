@@ -8,9 +8,6 @@
 <body>
 <%
     String[] languages = request.getParameterValues("favoriteLanguages");
-    for (String language : languages) {
-        System.out.println(language);
-    }
 %>
 
 The student is confirmed - Name:
