@@ -17,7 +17,7 @@
 
 <%-- Step 2: Add new item to "To Do" list --%>
 <%
-    // get the to do items from the session
+    // creating a session object called "myToDoList" and getting the to do items from the session while storing it in a variable called "items"
     List<String> items = (List<String>) session.getAttribute("myToDoList");
 
     // if the to do items doesn't exist, then create a new one
@@ -51,3 +51,4 @@
 </ol>
 </body>
 </html>
+
