@@ -23,7 +23,7 @@
 
         for (Cookie cookie : theCookies) {
             if ("favLang".equals(cookie.getName())) {
-//                favLang = cookie.getValue();
+                // favLang = cookie.getValue();
 
                 // decode the cookie data to handle the case of the user choosing languages with spaces in them
                 favLang = URLDecoder.decode(cookie.getValue(), StandardCharsets.UTF_8);
