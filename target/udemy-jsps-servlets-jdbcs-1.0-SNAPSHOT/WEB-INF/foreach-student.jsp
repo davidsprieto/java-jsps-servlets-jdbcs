@@ -53,6 +53,8 @@
 
     </c:forEach>
 
+
+    <%--  The above code can be also be written using the JSTL <c:choose></c:choose> Tag which is similar to a switch statement --%>
     <c:forEach var="student" items="${students}">
 
         <tr>
