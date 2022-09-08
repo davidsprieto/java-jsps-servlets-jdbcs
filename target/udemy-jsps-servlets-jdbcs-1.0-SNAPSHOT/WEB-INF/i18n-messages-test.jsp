@@ -6,7 +6,7 @@
 
 <fmt:setLocale value="${theLocale}" />
 
-<fmt:setBundle basename="com.codeup.udemyjspsservletsjdbcs.i18n.resources" />
+<fmt:setBundle basename="com.codeup.udemyjspsservletsjdbcs.i18n.resources.mylabels" />
 <html>
 <head>
     <title>i18n Messages</title>
