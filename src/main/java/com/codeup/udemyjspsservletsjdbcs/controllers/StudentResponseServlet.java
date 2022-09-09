@@ -30,6 +30,8 @@ public class StudentResponseServlet extends HttpServlet {
             "<br/> Country: " + request.getParameter("country") +
             "<br/> Top Programming Language: " + request.getParameter("topLanguage") +
             "<br/> Favorite Programming Languages: " + Arrays.toString(languages));
+
+        request.getRequestDispatcher("/WEB-INF/student-response.jsp").include(request, response);
     }
 
 }
