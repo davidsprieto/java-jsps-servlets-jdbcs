@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<c:forEach var="student" items="${student-list}">
+<c:forEach var="student" items="${students}">
     ${student} <br/>
 </c:forEach>
 
