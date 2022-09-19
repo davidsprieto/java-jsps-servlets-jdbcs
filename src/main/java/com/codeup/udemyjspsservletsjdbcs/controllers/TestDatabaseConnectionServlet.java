@@ -1,24 +1,22 @@
 package com.codeup.udemyjspsservletsjdbcs.controllers;
 
-import javax.annotation.Resource;
+import com.codeup.udemyjspsservletsjdbcs.daos.DataSource;
+import com.mysql.jdbc.Driver;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
 @WebServlet(name = "testDatabaseConnectionServlet", value = "/test-database-connection")
 public class TestDatabaseConnectionServlet extends HttpServlet {
-
-    // Define datasource/connection pool for Resource Injection
-    @Resource(name = "jdbc/students_db")
-    private DataSource dataSource;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -33,7 +31,12 @@ public class TestDatabaseConnectionServlet extends HttpServlet {
         ResultSet rs = null;
 
         try {
-            conn = dataSource.getConnection();
+            DriverManager.registerDriver(new Driver());
+            conn = DriverManager.getConnection(
+                    DataSource.getUrl(),
+                    DataSource.getUsername(),
+                    DataSource.getPassword()
+            );
 
             // Step 3: Create a SQL statement
             String sql = "SELECT * FROM students";

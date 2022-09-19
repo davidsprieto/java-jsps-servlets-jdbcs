@@ -1,1 +1,5 @@
-context.xml
+### DataBase Credentials in File ###
+server.xml
+
+### DataBase Credentials in File ###
+DataSource.java

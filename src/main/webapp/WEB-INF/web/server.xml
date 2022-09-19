@@ -1,0 +1,19 @@
+<GlobalNamingResources>
+
+    <Resource type="javax.sql.DataSource"
+              name="jdbc/students_db"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/students_db?allowPublicKeyRetrieval=true&amp;useSSL=false"
+              username="root"
+              password="codeup"
+              initialSize="10"
+              maxActive="100"
+              maxIdle="50"
+              minIdle="10"
+              suspectTimeout="60"
+              timeBetweenEvictionRunsMillis="30000"
+              minEvictionIdleMillis="60000"
+    />
+
+</GlobalNamingResources>
