@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="udemy-jsps-servlets-jdbcs-project:war">
+    <output-path>$PROJECT_DIR$/udemy-jsps-servlets-jdbcs-project/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>udemy-jsps-servlets-jdbcs-project</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="udemy-jsps-servlets-jdbcs-project-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="udemy-jsps-servlets-jdbcs-project:war exploded" />
+    </root>
+  </artifact>
+</component>
