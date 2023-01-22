@@ -1,1 +1,1 @@
-# udemy-java-jsps-servlets-jdbcs-course
+# Udemy Course: JSPs, Servlets, and JDBC for Beginners
