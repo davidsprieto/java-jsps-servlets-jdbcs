@@ -1,1 +1,4 @@
-# Udemy Course: JSPs, Servlets, and JDBC for Beginners - Build a Database App
+# Udemy Course - Learned the Basics of JSPs, Servlets, and JDBC.
+
+Programming Language:
+- Java EE
