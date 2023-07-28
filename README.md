@@ -1,4 +1,4 @@
-# JSP, Servlets & JDBC for Beginners - Udemy Course Taken to Further Deepen my Knowledge & Understanding of JSPs, Servlets, & JDBC!
+# JSP, Servlets & JDBC for Beginners
 
 Programming Language:
 - Java EE
