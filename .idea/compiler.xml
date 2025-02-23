@@ -10,7 +10,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="udemy-jsps-servlets-jdbcs" target="10" />
       <module name="udemy-jsps-servlets-jdbcs-project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
